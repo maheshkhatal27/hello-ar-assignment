@@ -1,0 +1,16 @@
+.del-button{
+    background-color: #58d164;
+    border-radius: 50%;
+    border-width: 0px;
+    cursor:pointer;
+}
+.data {
+    text-align: center;
+    height: 50px;
+
+}
+
+.img {
+    height: 40px;
+    width: 40px;
+}
