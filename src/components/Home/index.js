@@ -135,14 +135,16 @@ class Home extends Component{
           
                                 
                             </table>
-                   </div>) : ""}
-
-                {isColorOn ? (<div className="pagination-container">
+                   
+                            <div className="pagination-container">
                     <p className="direction">Previous</p>
                     <button type="button" className="number-button btn-1">1</button>
                     <button type="button" className="number-button btn-2">2</button>
                     <p className="direction">Next</p>
-                </div>  ) : ""}   
+                </div> 
+                   </div>) : ""}
+
+               
                    
                  
 
