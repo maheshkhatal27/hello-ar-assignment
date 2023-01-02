@@ -74,3 +74,29 @@
  }
 
 
+.pagination-container{
+    display: flex;
+    align-items: center;
+    margin-top:15px;
+    margin-left:-145px;
+}
+.direction{
+    color:#363333;
+    font-size:18px;
+    font-family: "Bree Serif";
+    margin-right: 10px;
+}
+.number-button{
+    background-color: transparent;
+    border-radius: 0px;
+    border-width: 0px;
+    color:#ffffff;
+    height: 20px;
+}
+.btn-1{
+    background-color: #04ba47;
+}
+.btn-2{
+    height: 20px;
+    color:#363333;
+}
