@@ -7,12 +7,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 12px;
 }
 
 .logo-name-container{
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
+    align-items: center;
+    margin-left: 20px;
 }
 .img-name-container{
     display: flex;
@@ -22,13 +24,16 @@
 .logo-resize{
     height: 50px;
     width: 50px;
+    margin-top:10px;
 }
-.my-app{
-    color:#828385;
-    font-size:25px;
-    font-family: "Roboto";
+.logo-heading{
+    color:#646967;
+    font-family: sans-serif;
+    font-size:22px;
     font-weight: 400;
     margin-left: 15px;
+    margin-top:20px;
+
 }
 .profile-resize{
     height:50px;
@@ -43,95 +48,9 @@
     margin-left: 10px;
 }
 
-
 .user-button{
     background-color: transparent;
     border-width: 0px;
     cursor: pointer;
 }
 
-.popup-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top:200px;
-    margin-right: 200px;
-
-}
-.role-logo-container{
-    background-color: #ed6861;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-width: 400px;
-}
-.role-resize{
-    height:60px;
-    width:60px;
-    margin-top:30px;
-}
-.lorem-text{
-    color:#ffffff;
-    font-size:18px;
-    font-family: "Bree Serif";
-}
-.user-info-container{
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-.heading{
-    color:#262926;
-    font-size:20px;
-    font-family: "Bree Serif";
-}
-.email{
-    color:#262926;
-    font-size:20px;
-    font-family: "Bree Serif";
-   
-}
-.email-input{
-
-    height: 30px;
-    width: 200px;
-    border:1px solid #bfc2c7;
-    outline:none;
-
-}
-.role{
-    color:#262926;
-    font-size:20px;
-    font-family: "Bree Serif";
-}
-.button-cancel{
-    background-color: #f5af2f;
-    height: 35px;
-    width: 90px;
-    border-width: 0px;
-    border-radius: 2px;
-    color:white;
-    margin:10px;
-
-}
-.button-add{
-    background-color:#63d685;
-    height: 35px;
-    width: 90px;
-    border-width: 0px;
-    border-radius: 2px;
-    color:white;
-    margin:10px;
-
-}
-.button-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}

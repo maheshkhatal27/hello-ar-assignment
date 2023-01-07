@@ -1,5 +1,5 @@
 .del-button{
-    background-color: #58d164;
+    background-color:  #07b564;
     border-radius: 50%;
     border-width: 0px;
     cursor:pointer;
@@ -11,6 +11,6 @@
 }
 
 .img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
 }

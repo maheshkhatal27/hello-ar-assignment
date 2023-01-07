@@ -3,25 +3,35 @@
     flex-direction: column;
     justify-content: flex-start;
     border-right:  1px solid #bfc2c7;
-    width: 200px;
+    width: 240px;
     margin-left: 25px;
     min-height: 100vh;
 
 }
 .items{
-    color:#5f6061;
-    font-family: "Roboto";
-    font-size:22px;
+    color:#525755;
+    font-size:20px;
     cursor: pointer;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding-left: 20px;
+    margin-bottom: 30px;
 }
+
+
 .bg-color{
-    background-color: #04ba47;
-    height: 35px;
+    background-color: #07b564;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60px;
 }
-.add-user-button{
-   background-color: #04ba47 ;
+
+.add-role-user{
+   background-color: #07b564;
    height: 30px;
-   width:100px;
+   width:120px;
    border-radius: 12px;
    border-width: 0px;
    color:#ffffff;
@@ -35,26 +45,37 @@
 
 .table-box{
     margin-top:100px;
-    margin-left:-185px;
+    margin-left:-149px;
+  
 }
 
 .row{
-    background-color: #a7b5ac;
+    background-color: #c5c7c9;
     height: 50px;
     width: 400px;
+   
 }
 
 .area {
-    width: 130px;
+    width: 260px;
+    color:#1b1b1c;
+    font-weight: 500;
+    font-family: sans-serif;
 }
 
 .area-1 {
-    width: 60px;
+    width: 80px;
+    color:#1b1b1c;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.delete-area {
+    width: 90px;
 }
 
 
 .column-design{
-    border:1px solid #f2eee1;
+    border:1px solid #f5f7fa;
 }
 .del-button{
     background-color: #58d164;
@@ -99,4 +120,153 @@
 .btn-2{
     height: 20px;
     color:#363333;
+}
+
+.active{
+    background-color:  #07b564;
+    margin: 3px;
+    padding:3px;
+   color:white;
+}
+.pages{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 710px;
+}
+
+.button-action{
+    background-color: transparent;
+    font-family: sans-serif;
+    border:0px;
+    font-size:18px;
+    font-weight: 500;
+    cursor:pointer;
+    outline: none;
+    margin-right: 5px;
+    margin-left:5px;
+}
+.each-page{
+    margin:2px;
+}
+
+/*css pop up*/
+
+
+.popup-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+   /* margin-top:200px;
+    margin-right: 200px;*/
+    margin-top:300px;
+}
+
+.role-logo-container{
+    background-color: #ed6861;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    padding:15px;
+    padding-bottom:30px;
+
+}
+.role-resize{
+    height:60px;
+    width:60px;
+    margin-top:30px;
+}
+.lorem-text{
+    color:#ffffff;
+    font-size:16px;
+    font-family: sans-serif;
+}
+.user-info-container{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 425px;
+    min-height: 500px;
+
+}
+.user-information{
+    color:#262926;
+    font-size:20px;
+    font-family: sans-serif;
+    margin-left:-155px;
+}
+.email-label{
+    color:#070708;
+    font-size:16px;
+    font-family: sans-serif; 
+    font-weight: 500;
+}
+.email-input{
+    height: 30px;
+    width: 200px;
+    border:1px solid #bfc2c7;
+    outline:none;
+    margin-bottom: 3px;
+
+}
+.sign-in-input{
+    height: 30px;
+    width: 200px;
+    border:0px;
+    outline:none;
+    border:1px solid #bfc2c7;
+    margin-bottom: 3px;
+}
+.role-input{
+    height: 30px;
+    width: 200px;
+    border:0px;
+    outline:none;
+}
+.role-label{
+    color:#262926;
+    font-size:16px;
+    font-family: sans-serif;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.button-cancel{
+    background-color: #f5af2f;
+    height: 35px;
+    width: 90px;
+    border-width: 0px;
+    border-radius: 2px;
+    color:white;
+    margin:10px;
+}
+.button-add{
+    background-color:#63d685;
+    height: 35px;
+    width: 90px;
+    border-width: 0px;
+    border-radius: 2px;
+    color:white;
+    margin:10px;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -100px;
 }
