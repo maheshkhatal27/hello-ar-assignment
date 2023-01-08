@@ -66,7 +66,13 @@ setSalesColor=()=>{
     this.setState({
       userData: filteredUserList,
     })
+    
+    localStorage.setItem("userList",JSON.stringify(filteredUserList))
+
+  
+
     }
+
     handlePageChange = page => {
       this.setState({ currentPage: page });
     };
@@ -118,6 +124,7 @@ setSalesColor=()=>{
           }))
            
         localStorage.setItem("userList",JSON.stringify(userData))
+        
     }
 
     addForName=(event)=>{
